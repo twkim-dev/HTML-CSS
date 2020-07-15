@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* input 요소 중에서 type 어트리뷰트 값이 password가 아닌 요소를 선택 */
+        input:not([type=password]){
+            background: yellow;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" value="Text input">
+    <input type="email" value="email input">
+    <input type="password" value="password input">
+</body>
+</html>
